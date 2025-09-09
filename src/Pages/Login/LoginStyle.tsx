@@ -10,11 +10,16 @@ export const LoginImage = styled.div`
   background-size: cover;
   background-position: center;
   height: 100vh;
-  width: 60vw;
+  width: 45vw;
 `;
 
 export const LoginForm = styled.div`
-  width: 40vw;
+  width: 55vw;
+  >div{
   display: flex;
 flex-direction: column;
+margin: 20px;
+padding: 20px;
+gap: 10px;
+box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);}
 `;
