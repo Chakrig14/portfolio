@@ -6,11 +6,13 @@ const Login = () => {
             <LoginImage></LoginImage>
             <LoginForm>
                 <h1>Login Page</h1>
-                <label>UserName</label>
-                <input type="text" placeholder="Username" />
-                <label>Password</label>
-                <input type="password" placeholder="Password" />
-                <button>Login</button>
+                <div>
+                    <label>UserName</label>
+                    <input type="text" placeholder="Username" />
+                    <label>Password</label>
+                    <input type="password" placeholder="Password" />
+                    <button>Login</button>
+                </div>
             </LoginForm>
         </LoginContainer>
     )
